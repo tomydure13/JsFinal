@@ -1,0 +1,25 @@
+@import "variables";
+@import "footer";
+@import"header";
+@import "section";
+
+
+img {
+    width: 100px;
+    height: auto;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.part {
+    background-color: $color-principal;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid $color-principal;
+}

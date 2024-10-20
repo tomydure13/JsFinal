@@ -1,0 +1,32 @@
+@import "variables";
+
+footer {
+    background-color: $color-fondo;
+    color: $color-principal;
+    text-align: center;
+    padding: 20px;
+
+    p {
+        font-size: 1.5rem;
+        margin: 0 0 10px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+
+        button {
+            background-color: $color-principal;
+            border: none;
+            padding: 10px 20px;
+            color: $color-secundario;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: $color-principal;
+            }
+        }
+    }
+}

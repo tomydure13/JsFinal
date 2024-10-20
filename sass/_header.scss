@@ -1,0 +1,32 @@
+@import "variables";
+
+header {
+    nav {
+        background-color: $color-fondo; 
+        padding: 10px 0;
+
+        .container-fluid {
+            display: flex;
+            align-items: center;
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+
+                img {
+                    max-width: 100%; 
+                    height: auto;
+                }
+            }
+
+            .nav-text {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color-principal;
+                font-family: 'Arial', sans-serif;
+                text-transform: uppercase; 
+                margin-left: 10px; 
+            }
+        }
+    }
+}
