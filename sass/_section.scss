@@ -34,6 +34,12 @@ article {
         font-family: 'Arial', sans-serif;
     }
 
+    h3 { 
+        color: $color-principal; 
+        font-size: 1.5rem; 
+        margin: 10px 0; 
+    }
+
     .discography-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 

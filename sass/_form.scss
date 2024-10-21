@@ -1,0 +1,48 @@
+@import "variables";
+
+.purchase-form {
+    background-color: lighten($color-fondosecundario, 10%);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(245, 4, 4, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: $color-principal;
+        font-size: 1rem;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $color-principal;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font-size: 1rem;
+
+        &:focus {
+            border-color: $color-secundario;
+            outline: none;
+            box-shadow: 0 0 5px rgba($color-secundario, 0.5);
+        }
+    }
+
+    button[type="submit"] {
+        background-color: $color-principal;
+        color: $color-fondo;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+            background-color: $color-secundario;
+            transform: scale(1.05);
+        }
+    }
+}
